@@ -16,6 +16,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+<body>
+    <p>Welcome to my website!</p>
+    
+    <script>
+      /**
+      * The following event is sent when the page loads. You could
+      * wrap the event in a JavaScript function so the event is
+      * sent when the user performs some action.
+      */
+      gtag('event', 'screen_view', {
+        'app_name': 'myAppName',
+        'screen_name': 'Home'
+      });
+    </script> 
+</body>
 <style>
     body {
         height: 100vh;
