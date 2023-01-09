@@ -12,12 +12,35 @@
     </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});
-        const f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';j.async=true;j.src=
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TJZ2LWP');</script>
     <!-- End Google Tag Manager -->
+    <!-- Fundraise Up: the new standard for online giving -->
+    <script>(function (w, d, s, n, a) {
+        if (!w[n]) {
+            var l = 'call,catch,on,once,set,then,track'
+                    .split(','), i, o = function (n) {
+                    return 'function' == typeof n ? o.l.push([arguments]) && o
+                        : function () {
+                            return o.l.push([n, arguments]) && o
+                        }
+                }, t = d.getElementsByTagName(s)[0],
+                j = d.createElement(s);
+            j.async = !0;
+            j.src = 'https://cdn.fundraiseup.com/widget/' + a;
+            t.parentNode.insertBefore(j, t);
+            o.s = Date.now();
+            o.v = 4;
+            o.h = w.location.href;
+            o.l = [];
+            for (i = 0; i < 7; i++) o[l[i]] = o(l[i]);
+            w[n] = o
+        }
+    })(window, document, 'script', 'FundraiseUp', 'AEMZUDUM');</script>
+    <!-- End Fundraise Up -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Helping Hand</title>
@@ -51,30 +74,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-
-<!-- Fundraise Up: the new standard for online giving -->
-<script>(function (w, d, s, n, a) {
-    if (!w[n]) {
-        var l = 'call,catch,on,once,set,then,track'
-                .split(','), i, o = function (n) {
-                return 'function' == typeof n ? o.l.push([arguments]) && o
-                    : function () {
-                        return o.l.push([n, arguments]) && o
-                    }
-            }, t = d.getElementsByTagName(s)[0],
-            j = d.createElement(s);
-        j.async = !0;
-        j.src = 'https://cdn.fundraiseup.com/widget/' + a;
-        t.parentNode.insertBefore(j, t);
-        o.s = Date.now();
-        o.v = 4;
-        o.h = w.location.href;
-        o.l = [];
-        for (i = 0; i < 7; i++) o[l[i]] = o(l[i]);
-        w[n] = o
-    }
-})(window, document, 'script', 'FundraiseUp', 'AEMZUDUM');</script>
-<!-- End Fundraise Up -->
 <script>
     window.fundraiseup_livemode = false;
 </script>
